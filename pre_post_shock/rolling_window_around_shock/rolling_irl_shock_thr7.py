@@ -26,8 +26,8 @@ OUT_DIR    = "/nas/home/dchu/IDP4CSS/Ashwin/Trajectories/pre_post_shock/rolling_
 SHOCK_DATE       = pd.Timestamp("2020-10-02")
 WINDOW_LEN       = 30
 STEP_SIZE        = 3
-N_WINDOWS        = 6
-END_OFFSET_FIRST = -3
+N_WINDOWS        = 7
+END_OFFSET_FIRST = -6
 
 n_bins      = 2
 n_actions   = 2
