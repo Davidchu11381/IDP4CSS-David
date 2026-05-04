@@ -13,7 +13,6 @@ Each user is an MDP agent. We recover reward functions explaining their reply/qu
 ## Data
 
 - Tweets: `/data/dchu/covid_masking/masking_2020-*.parquet`
-- Bot filter: `/data/dchu/covid_mask_misc/clean_userids.parquet`
 - Trajectory pkl (25,281 users, ≥10 actions): `/data/dchu/covid_masking_irl_action_v3/trajectories.pkl`
 
 Trajectory format: list of dicts. Each dict has `user_id`, `political_gen` (0=lib, 1=con), `n_steps`, `trajectory`. Each step is `[date_str, S1, S2, action]`.
